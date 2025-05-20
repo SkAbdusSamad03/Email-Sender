@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Email Sender with Attachment</title>
+</head>
+<body>
+    <h1>📧 Send Email with Attachment</h1>
+    <form action="/send-email" method="POST" enctype="multipart/form-data">
+        <label>Recipients (comma-separated):</label><br>
+        <input type="text" name="recipient" required><br><br>
+
+        <label>Subject:</label><br>
+        <input type="text" name="subject" required><br><br>
+
+        <label>Message:</label><br>
+        <textarea name="message" rows="5" cols="40" required></textarea><br><br>
+
+        <label>Attachment:</label><br>
+        <input type="file" name="attachment"><br><br>
+
+        <button type="submit">Send Email</button>
+    </form>
+</body>
+</html>

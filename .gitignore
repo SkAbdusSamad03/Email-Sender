@@ -1,0 +1,29 @@
+# Node modules
+node_modules/
+
+# dotenv environment files
+.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Uploads (optional: if you don't want to commit uploaded files)
+uploads/
+
+# Editor-specific files
+.vscode/
+.idea/
+*.swp
+
+# EJS cache (if any)
+*.ejs~
+
+# Build artifacts (if any)
+dist/
+build/
